@@ -1,0 +1,20 @@
+# RoseNet 2024
+# Sarah Coffland and Katie Christensen
+
+# Protein information
+protein_length: 85  # 1crn: 48, 1csp: 69, 2ckx: 85, 1hhp: 101, 1c44: 125, 5cvz: 143
+scores: ['fa_atr','fa_rep', 'fa_sol', 'fa_intra_rep', 'fa_intra_sol', 'lk_ball_wtd', 'fa_elec', 'pro_close', 'hbond_sr_bb', 'hbond_lr_bb', 'hbond_bb_sc', 'hbond_sc', 'omega', 'fa_dun', 'p_aa_pp', 'ref', 'rama_prepro', 'total']
+
+# Paths
+train_path: ''
+dev_path: ''
+save_path: ''
+one_to_one_save_base_path: ''
+
+# Hyperparameters
+lr: 0.0001
+epochs: 100
+batch_size: 64
+output_size: 18
+num_blocks: 1
+num_workers: 4

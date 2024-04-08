@@ -1,0 +1,18 @@
+# RoseNet 2024
+# Sarah Coffland and Katie Christensen
+
+# PDB ID of protein that is being split
+protein: ''
+
+# Length of protein
+protein_length: ''
+
+# Path to data directory
+data_path: ''
+
+# Path to save splits
+save_path: ''
+
+# Upper and lower bounds for Test2 and Test3
+upper_bound: .045
+lower_bound: .055

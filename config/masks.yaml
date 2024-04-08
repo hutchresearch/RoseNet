@@ -1,0 +1,18 @@
+# RoseNet 2024
+# Sarah Coffland and Katie Christensen
+
+# Protein information
+protein_list: ['1C44', '1CRN', '1CSP', '1HHP', '5CVZ']
+
+# Paths
+SASA_path: ''
+save_path: ''
+SASA_type: 'percentile'
+csv_path: ''
+download_path: ''
+
+download: True
+
+# Specify what type of mask to generate
+make_SS: True
+make_SASA: True

@@ -1,0 +1,33 @@
+# RoseNet 2024
+# Sarah Coffland and Katie Christensen
+
+# Protein information
+protein: '1crn'       # ['1crn', '1csp', '2ckx', '1hhp', '1c44', '5cvz']
+protein_length: 48    # 1crn: 48, 1csp: 69, 2ckx: 85, 1hhp: 101, 1c44: 125, 5cvz: 143
+scores: ['fa_atr','fa_rep', 'fa_sol', 'fa_intra_rep', 'fa_intra_sol', 'lk_ball_wtd', 'fa_elec', 'pro_close', 'hbond_sr_bb', 'hbond_lr_bb', 'hbond_bb_sc', 'hbond_sc', 'omega', 'fa_dun', 'p_aa_pp', 'ref', 'rama_prepro', 'total']
+
+# Secondary structure and SASA run information.
+SASA_type: 'after' #['before', 'after', 'average']
+SASA_type2: 'original' # ['original', 'combined']
+SS_mask_path: ''
+SASA_mask_path: ''
+
+# Figure save paths
+SASA_SS_figure_save_path: ''
+one_to_one_save_base_path: ''
+
+# Data paths
+dev_path: ''
+test1_path: ''
+test2_path: ''
+test3_path: ''
+model_checkpoint_path: ''
+
+# Hyperparameters
+lr: 0.0001
+epochs: 1
+batch_size: 64
+output_size: 18
+num_blocks: 1
+num_workers: 4
+report_freq: 1
